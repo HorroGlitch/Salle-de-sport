@@ -39,6 +39,11 @@ header {
     /* opacity: .2; */
 }
 
+main {
+    background-color: rgb(34, 137, 255);
+    width: 100%;
+}
+
 #sportsFactoryTitle {
     font-family: 'Coda Caption', sans-serif;
     font-size: 80px;
@@ -58,64 +63,7 @@ header {
     font-family: 'Norican', cursive;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-#sallesDeSport {
-    color: white;
-    font-size: 80px;
-    text-align: center;
-    transform: translateY(1rem);
-    font-family: 'Norican', cursive;
-}
-
-
-
-#allSportStation {
-    width: 100%;
-    background-color: rgb(34, 137, 255);
-}
-
-#toutesSallesSportTitre {
-    font-family: 'Coda Caption', sans-serif;
-    font-size: 40px;
-    text-align: center;
-    color: rgb(228, 168, 16);
-    text-shadow: 5px 8px 50px 6px #000000;
-    transform: translateY(1rem);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#toutesSallesSportTitre span:nth-child(2) {
-    transform: translateY(-50%);
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Norican', cursive;
-}
-
-#maps {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 3%;
-}
-
-#lyon6 {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 5%;
-}
-
-#salleLyon6 {
+#reservePlace {
     font-family: 'Coda Caption', sans-serif;
     font-size: 50px;
     color: rgb(228, 168, 16);
@@ -126,219 +74,191 @@ main {
     align-items: center;
 }
 
-#salleLyon6 span:nth-child(2) {
+#reservePlace span:nth-child(2) {
     transform: translateY(-50%);
     color: white;
     font-size: 60px;
     font-family: 'Norican', cursive;
 }
 
-#imgSport1 {
-    width: 410px;
-    height: 260px;
-    float: left;
-    margin-right: 20px;
-}
 
-#texteSport1 {
-    color: white;
-    font-size: 17px;
-    line-height: 30px;
-    font-family: 'PT Sans', sans-serif;
-}
-
-hr {
-    width: 90%;
-    margin: 5%;
-    align-items: center;
-    display: flex;
-}
-
-#lyon5 {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 5%;
-}
-
-#salleLyon5 {
-    font-family: 'Coda Caption', sans-serif;
-    font-size: 50px;
-    color: rgb(228, 168, 16);
-    text-shadow: 5px 8px 50px 6px #000000;
-    transform: translateY(1rem);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#salleLyon5 span:nth-child(2) {
-    transform: translateY(-50%);
-    color: white;
-    font-size: 60px;
-    font-family: 'Norican', cursive;
-}
-
-#imgSport2 {
-    width: 410px;
-    height: 260px;
-    float: right;
-    margin-left: 20px;
-}
-
-#texteSport2 {
-    color: white;
-    font-size: 17px;
-    line-height: 30px;
-    font-family: 'PT Sans', sans-serif;
-}
-
-#lyon2 {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 5%;
-}
-
-#salleLyon2 {
-    font-family: 'Coda Caption', sans-serif;
-    font-size: 50px;
-    color: rgb(228, 168, 16);
-    text-shadow: 5px 8px 50px 6px #000000;
-    transform: translateY(1rem);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#salleLyon2 span:nth-child(2) {
-    transform: translateY(-50%);
-    color: white;
-    font-size: 60px;
-    font-family: 'Norican', cursive;
-}
-
-#imgSport3 {
-    width: 410px;
-    height: 260px;
-    float: left;
-    margin-right: 20px;
-}
-
-#texteSport3 {
-    color: white;
-    font-size: 17px;
-    line-height: 30px;
-    font-family: 'PT Sans', sans-serif;
-}
-
-#temoignages {
-    width: 100%;
-    background: linear-gradient(rgb(34, 137, 255), rgb(28, 26, 44));
-}
-
-#temoignagesTitle {
-    font-family: 'Coda Caption', sans-serif;
-    font-size: 50px;
-    color: rgb(228, 168, 16);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#allArticles{
-    display: flex;
-}
-
-#anita {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-}
-
-#anitaTitle {
-    font-family: 'Norican', cursive;
-    color: white;
-    font-size: 38px;
-    text-align: center;
-}
-
-#anitaImg {
-    width: 210px;
-    height: 210px;
-}
-
-#anitaTexte {
-    text-align: center;
-    line-height: 35px;
-    color: white;
-    font-family: 'PT Sans', sans-serif;
-}
-
-#marco {
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    margin-left: 50px;
-}
-
-#marcoTitle {
-    font-family: 'Norican', cursive;
-    color: white;
-    font-size: 38px;
-    text-align: center;
-}
-
-#marcoImg {
-    width: 210px;
-    height: 210px;
-}
-
-#marcoTexte {
-    text-align: center;
-    line-height: 35px;
-    color: white;
-    font-family: 'PT Sans', sans-serif;
-}
-
-#celine {
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    margin-left: 50px;
-}
-
-#celineTitle {
-    font-family: 'Norican', cursive;
-    color: white;
-    font-size: 38px;
-    text-align: center;
-}
-
-#celineImg {
-    width: 210px;
-    height: 210px;
-}
-
-#celineTexte {
-    text-align: center;
-    line-height: 35px;
-    color: white;
-    font-family: 'PT Sans', sans-serif;
-}
-
-footer{
+footer {
     background-color: white;
     width: 100%;
-    height: 130px;
-    align-items: center;
+    height: 80px;
     display: flex;
     flex-direction: column;
     vertical-align: middle;
 }
 
-#edenSchoolLogo{
+#edenSchoolLogo {
     width: 100px;
     height: 50px;
+}
+
+#toutLesCreneaux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.listeCreneaux {
+    width: 90%;
+    margin-top: 50px;
+}
+
+td {
+    width: 520px;
+    height: 50px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.lyonSecteur {
+    height: 80px;
+    text-align: left;
+    width: 300px;
+    color: rgb(228, 168, 16);
+    font-family: 'Norican', cursive;
+    font-size: 35px;
+    background: linear-gradient(rgb(34, 137, 255), rgb(28, 26, 44));
+}
+
+.background {
+    background-color: white;
+}
+
+.background2 {
+    background-color: rgb(228, 168, 16);
+    width: 700px;
+    text-align: center;
+    color: white;
+    border: 5px solid #000000;
+}
+
+
+#titreFormulaire {
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 50px;
+    color: rgb(228, 168, 16);
+    text-shadow: 5px 8px 50px 6px #000000;
+    transform: translateY(1rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulaireContain {
+    background: linear-gradient(rgb(34, 137, 255), rgb(28, 26, 44));
+}
+
+#titreFormulaire span:nth-child(2) {
+    transform: translateY(-50%);
+    color: white;
+    font-size: 60px;
+    font-family: 'Norican', cursive;
+}
+
+#coordonnées {
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 10%;
+    border-color: rgb(228, 168, 16);
+}
+
+#prenom {
+    font-size: 20px;
+    margin: 20px;
+}
+
+#nom {
+    font-size: 20px;
+    margin: 20px;
+}
+
+#mail {
+    font-size: 20px;
+    margin: 20px;
+}
+
+#raisonsVenue {
+    margin-top: 5%;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 10%;
+    border-color: rgb(228, 168, 16);
+    height: 100px;
+}
+
+
+#detente {
+    font-size: 20px;
+    width: 27%;
+}
+
+#medecin {
+    font-size: 20px;
+    width: 35%;
+}
+
+#test {
+    font-size: 20px;
+    width: 27%;
+}
+
+#souscrire {
+    margin-top: 5%;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 10%;
+    border-color: rgb(228, 168, 16);
+    height: 100px;
+}
+
+#oui {
+    font-size: 20px;
+}
+
+#non {
+    font-size: 20px;
+}
+
+#commentAvezVousConnu{
+    margin-top: 5%;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 10%;
+    border-color: rgb(228, 168, 16);
+    height: 100px;
+}
+
+#commentAvezVousConnuSelect{
+    width: 70%;
+    height: 50px;
+}
+
+#envoyerButton{
+    width: 130px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    background-color: rgb(228, 168, 16);
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-left: 45%;
+    margin-top: 100px;
 }
